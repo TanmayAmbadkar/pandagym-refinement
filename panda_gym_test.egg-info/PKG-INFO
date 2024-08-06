@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: panda-gym-test
+Version: 3.0.5
+Summary: Set of robotic environments based on PyBullet physics engine and gymnasium.
+Home-page: https://github.com/qgallouedec/panda-gym
+Author: Quentin GALLOUÉDEC
+Author-email: gallouedec.quentin@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+
 # panda-gym
 
 Set of robotic environments based on PyBullet physics engine and gymnasium.
