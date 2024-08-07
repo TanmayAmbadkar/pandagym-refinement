@@ -38,14 +38,14 @@ if __name__ == "__main__":
 
     start_region = Goal(center = np.array([0, 0, 0]), radius = 0.1)
     mid_region = Goal(center = np.array([0.25, 0, 0.2]), radius = 0.1)
-    # goal_region = Goal(center = np.array([0.38, 0.0, 0.15]), radius = 0.05)
+    goal_region = Goal(center = np.array([0.38, 0.0, 0.15]), radius = 0.05)
 
     start_node = Node(start_region, False, False, "start")
-    # mid_node = Node(mid_region, True, False, "mid")
-    goal_node = Node(mid_region, True, True, "goal")
+    mid_node = Node(mid_region, True, False, "mid")
+    goal_node = Node(goal_region, True, True, "goal")
 
-    start_node.add_child(goal_node)
-    # mid_node.add_child(goal_node)
+    start_node.add_child(mid_node)
+    mid_node.add_child(goal_node)
 
 
 
