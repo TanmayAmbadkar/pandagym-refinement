@@ -42,6 +42,7 @@ class CustomEnv(gym.Env):
         
         if self.goal_node is not None:
             self.goal_node.goal.reset()
+            observation['desired_goal'] = self.goal_node.goal.current_center
         
         return observation, info
 

@@ -25,6 +25,7 @@ panda_gym_test/envs/tasks/stack.py
 ppo/__init__.py
 ppo/actor_critic.py
 ppo/policy.py
+ppo/policy_sb3.py
 ppo/utils.py
 refinement/__init__.py
 refinement/goal.py

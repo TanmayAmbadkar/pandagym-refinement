@@ -96,8 +96,8 @@ def explore(parent: Node, grandparent: Node, env: gym.Env, stored_states: list =
                 goal_r_node = Node(
                     goal = goal_r, 
                     splittable=False,
-                    final = parent.final,
-                    name = parent.name + "_r"
+                    final = child['child'].final,
+                    name = child['child'].name + "_r"
                 )
 
                 # goal_nr_node = Node(

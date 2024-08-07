@@ -42,7 +42,7 @@ def train_policy(env: gym.Env, end_node, n_episodes=3000, stored_states: list = 
                              deterministic=True, render=True, )
     
     
-    model = PPO("MultiInputPolicy", env, verbose=0)
+    model = PPO("MultiInputPolicy", env, verbose=0, device = "cpu")
     model.learn(total_timesteps = n_episodes, progress_bar=True)
     model.save("ppo_cartpole")
     return model

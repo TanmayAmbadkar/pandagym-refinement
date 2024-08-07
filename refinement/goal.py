@@ -36,7 +36,7 @@ class Goal(AbstractState):
         if self.predicate(state):
             return 10
         else:
-            return 0.1 / np.linalg.norm(state - self.current_center)
+            return 1/np.sum((state - self.current_center)**2)
 
 class ModifiedGoal(Goal):
     def __init__(self, center: np.ndarray, radius: float, hull, reachable=False):
