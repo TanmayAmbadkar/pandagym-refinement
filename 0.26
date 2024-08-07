@@ -1,0 +1,21 @@
+Collecting gymnasium
+  Downloading gymnasium-0.29.1-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: numpy>=1.21.0 in c:\users\tanma\anaconda3\envs\pandagym\lib\site-packages (from gymnasium) (1.24.4)
+Collecting cloudpickle>=1.2.0 (from gymnasium)
+  Downloading cloudpickle-3.0.0-py3-none-any.whl.metadata (7.0 kB)
+Collecting typing-extensions>=4.3.0 (from gymnasium)
+  Downloading typing_extensions-4.8.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting farama-notifications>=0.0.1 (from gymnasium)
+  Downloading Farama_Notifications-0.0.4-py3-none-any.whl (2.5 kB)
+Collecting importlib-metadata>=4.8.0 (from gymnasium)
+  Downloading importlib_metadata-6.8.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting zipp>=0.5 (from importlib-metadata>=4.8.0->gymnasium)
+  Downloading zipp-3.17.0-py3-none-any.whl.metadata (3.7 kB)
+Downloading gymnasium-0.29.1-py3-none-any.whl (953 kB)
+   ---------------------------------------- 953.9/953.9 kB 5.0 MB/s eta 0:00:00
+Downloading cloudpickle-3.0.0-py3-none-any.whl (20 kB)
+Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Downloading typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+Downloading zipp-3.17.0-py3-none-any.whl (7.4 kB)
+Installing collected packages: farama-notifications, zipp, typing-extensions, cloudpickle, importlib-metadata, gymnasium
+Successfully installed cloudpickle-3.0.0 farama-notifications-0.0.4 gymnasium-0.29.1 importlib-metadata-6.8.0 typing-extensions-4.8.0 zipp-3.17.0

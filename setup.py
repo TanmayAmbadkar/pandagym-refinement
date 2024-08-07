@@ -2,14 +2,14 @@ import os
 
 from setuptools import find_packages, setup
 
-with open(os.path.join("panda_gym", "version.txt"), "r") as file_handler:
+with open(os.path.join("panda_gym_test", "version.txt"), "r") as file_handler:
     __version__ = file_handler.read().strip()
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="panda_gym",
+    name="panda_gym_test",
     description="Set of robotic environments based on PyBullet physics engine and gymnasium.",
     author="Quentin GALLOUÉDEC",
     author_email="gallouedec.quentin@gmail.com",
@@ -18,7 +18,7 @@ setup(
     url="https://github.com/qgallouedec/panda-gym",
     packages=find_packages(),
     include_package_data=True,
-    package_data={"panda_gym": ["version.txt"]},
+    package_data={"panda_gym_test": ["version.txt"]},
     version=__version__,
     install_requires=["gymnasium>=0.26", "pybullet", "numpy", "scipy"],
     extras_require={

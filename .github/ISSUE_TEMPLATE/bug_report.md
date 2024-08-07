@@ -16,7 +16,7 @@ A clear and concise description of what the bug is.
 Provide a **minimal** code :
 
 ```python
-import panda_gym
+import panda_gym_test
 ...
 ```
 
